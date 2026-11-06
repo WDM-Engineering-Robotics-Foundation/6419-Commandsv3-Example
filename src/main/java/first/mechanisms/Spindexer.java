@@ -16,7 +16,7 @@ import static first.Constants.SpindexerConstants;
 public class Spindexer implements Mechanism {
     private TalonFX spindexerMotor;
 
-    public Spindexer() {
+    Spindexer() {
         spindexerMotor = new TalonFX(SpindexerConstants.MOTOR_ID, new CANBus()); // TODO
         
         MotorOutputConfigs configs = new MotorOutputConfigs();

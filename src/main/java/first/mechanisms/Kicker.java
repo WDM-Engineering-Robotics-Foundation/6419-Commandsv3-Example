@@ -14,7 +14,7 @@ import static first.Constants.KickerConstants;
 public class Kicker implements Mechanism {
     private TalonFX kickerMotor;
     
-    public Kicker() {
+    Kicker() {
         kickerMotor = new TalonFX(KickerConstants.MOTOR_ID, new CANBus());
         setDefaultCommand(stop());
     }

@@ -11,7 +11,7 @@ public class Shooter implements Mechanism {
     
     private TalonFX leftMotor, rightMotor;
 
-    public Shooter() {
+    Shooter() {
         // init motors
     }
 

@@ -30,5 +30,6 @@ public class Robot extends OpModeRobot {
   public void robotPeriodic() {
     Scheduler.getDefault().run();
     Epilogue.update(this);
+    Mechanisms.drivetrain().periodic();
   }
 }
